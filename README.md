@@ -9,5 +9,5 @@ Goals of this project include:
 - Create an S3 Bucket and enable static website hosting
 - Create a Record Set in Route 53 and link to bucket
 - Host website on S3 bucket
-- Request a certificate for site
+- Request a certificate from AWS Certificate Manager
 - Set up CloudFront for caching of the site
