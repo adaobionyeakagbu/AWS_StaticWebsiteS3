@@ -11,3 +11,15 @@ Goals of this project include:
 - Host website on S3 bucket
 - Request a certificate from AWS Certificate Manager
 - Set up CloudFront for caching of the site
+
+## Phase 1: Host site on S3 Bucket
+
+## Phase 2: Register Domain Name via Route 53
+
+## Phase 3: Register for an SSL certificate from AWS Certificate Manager for Secure access
+
+## Phase 4: Set up CloudFront for caching
+
+## Phase 5: Build fault-tolerant and secure three-tier Network VPC architecture from scratch
+
+
