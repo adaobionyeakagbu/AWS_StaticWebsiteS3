@@ -12,7 +12,17 @@ Goals of this project include:
 - Request a certificate from AWS Certificate Manager
 - Set up CloudFront for caching of the site
 
-## Phase 1: Host site on S3 Bucket
+## Phase 1: Create S3 Bucket
+First, i created a bucket using the name of the website name I will register on DNS i.e (adaobionyeakagbu.com). I left all the default settings except the 'Block Public Access settings for this bucket' which I disabled to allow public access to this bucket. 
+
+![2](https://user-images.githubusercontent.com/66325142/214683820-1804f324-84e9-4555-8efd-d18d3fb7e3aa.png)
+
+After that, I edited static website hosting settings on the properties of the bucket and enabled it. The hosting type needs to be 'Host a static website' since this is the main bucket.
+![3](https://user-images.githubusercontent.com/66325142/214688621-c870aec7-7d70-4d97-a4e4-005c14e61763.png)
+
+Next, the permissions of the bucket needs to be set with a bucket policy. The policy used is in the repo. It sets a get request for the objects in the bucket, and the bucket name needs to be defined.
+![4](https://user-images.githubusercontent.com/66325142/214698545-2bdbf39f-6346-45aa-ab3c-8a96041cf8c6.png)
+That's all for the bucket for now.
 
 ## Phase 2: Register Domain Name via Route 53
 
